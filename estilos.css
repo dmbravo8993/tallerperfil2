@@ -1,0 +1,10 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+.principal {
+	background-color: #00B5C9;
+	color: red; 
+	text-align: left;
+
+}

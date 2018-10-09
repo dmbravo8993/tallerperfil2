@@ -1,0 +1,258 @@
+body {
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+.principal {
+	background-color: #00B5C9;
+	color: #FFFFFF; 
+	text-align: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+.principal h1{
+	font-size: 45px;
+	font-family: 'Al Bayan', sans-serif;
+}
+.contenedor{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:  100%;
+    height: 700px;
+    background-color: white;
+}
+.contenedor > div{
+	width: 33.3333333%;
+	height: 700px;
+	shape-margin: 3px;
+
+}
+.contenedor_izq{
+	flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;   
+	background-color: white;
+	
+}
+.contenedor_der{
+	background-color: white;
+}
+.contenedor_cen{	
+	background-color: white;
+	flex-wrap: wrap;
+    display: inline-table;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+.contenedor_izq  > div{
+	 width:  50%;
+    height: 150px;
+    margin-top: 50px;
+}
+.informacion{	
+    background-color: white;
+}
+.informacion h4{
+	color:#00B5C9;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-block-start: 3px;
+    margin-block-end: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.datos{
+	background-color: white;
+}
+.datos h4{
+	font-size: 20px;
+	text-align: left;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-block-start: 3px;
+    margin-block-end: 0px;
+    font-weight:normal;
+    font-family: 'Roboto', sans-serif;
+}
+/******************************/
+.fotografia{
+    margin:0 auto;
+   align-items: center;
+	
+}
+.fotografia img{
+	width:70%;
+	height: 90%;
+    margin: auto;
+    display:block;
+}
+/*******************************/
+.main-menu{
+	font-size: 14px;
+	margin-left: -40px;
+	text-align:center;
+
+}
+.main-menu ul{
+	list-style: none;
+	justify-content: center;
+
+}
+.main-menu ul li{
+	display: inline-block;
+	margin: 0px 2px;
+
+}
+.main-menu ul li a{
+	color:white;
+	background-color: #00B5C9;
+	border-radius: 5px;
+	padding:5px 10px;
+	/*padding-right: 30pX;
+	padding-bottom: 8px;*/
+	text-decoration: none;	
+	display: block;
+}
+/******************************/
+.contenedor_cen > div{
+	 width:  70%;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.mot1{
+	background-color:#CCCCCC;
+}
+.mot2{
+	background-color: #F2F2F2;
+}
+.contenedor_cen h2{
+	color:#00B5C9;
+	margin-left: 15px;
+	text-align:left;
+	margin-bottom: -5px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.contenedor_cen p{
+	font-size: 15px;
+	text-align: justify;
+    width: 90%;
+    float: left;
+   padding-left: 20px;
+}
+
+/*********************************/
+.contenedor_der h2{
+	color:#00B5C9;
+	margin-left: 15px;
+	text-align:left;
+	margin-bottom: 0px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.tecnologias {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	list-style: none;
+}
+.container-tech {
+	width: 90%;
+	height: 20px;
+	background-color:#F2F2F2;
+	margin-bottom: 5px;
+}
+.partial {
+	background-color: #00B5C9;
+	height: 100%;
+	
+}
+.container-tech:nth-child(2) .partial {
+	width: 70%;
+}
+
+.container-tech:nth-child(4) .partial {
+	width: 80%;
+}
+.container-tech:nth-child(6) .partial {
+	width: 60%;
+}
+
+.container-tech:nth-child(8) .partial {
+	width: 40%;
+}
+.social{	
+	
+}
+.contenedor_der a i{
+	font-size: 60px;
+	position:initial;
+	top:600px;
+	right: 50px;
+	color:#00B5C9;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-left: 60px;
+	margin-top: 64px;
+	
+}
+
+
+
+/******************************/
+.footer {
+	background-color: #00B5C9;
+	color: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.footer h3{
+	font-size: 18px;
+}
+/*******************************/
+@media screen and (max-width: 1200px){
+.contenedor{    
+    display: contents;
+    flex-direction: column;      
+    }
+ .contenedor > div{
+	width: 100%;
+	}
+
+}
+@media screen and (max-width: 768px){
+	
+.contenedor{    
+    display: contents;
+    flex-direction: column;       
+    }
+ .contenedor > div{
+	width: 100%;
+	}
+}
+@media screen and (max-width: 480px){
+	
+.contenedor{    
+    display: contents;
+    flex-direction: column;   
+    }
+
+ .contenedor > div{
+	width: 100%;
+	}
+	
+}
